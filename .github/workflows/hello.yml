@@ -1,9 +1,0 @@
-name: Hello CI
-
-on: [push]
-
-jobs:
-  hello:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "こんにちは from GitHub Actions"
